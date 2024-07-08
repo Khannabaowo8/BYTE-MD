@@ -1253,7 +1253,7 @@ smd(
    try {
      let _0x53783b = ("" + (_0x3c482f ? _0x3c482f : _0x272f8d.reply_text)).split(" ")[0].toLowerCase().trim();
      if (!_0x53783b || !_0x53783b.toLowerCase().startsWith("http")) {
-       return _0x272f8d.reply("*_Give me Video Link, " + prefix + "downmp4 https://telegra.ph/file/d90855d13352c8aae3981.mp4_*");
+       return _0x272f8d.reply("*_Give me Video Link, " + prefix + "downmp4 *");
      }
      var _0x1e4a34 = _0x3c482f.toLowerCase().includes("doc") ? "document" : "video";
      await _0x272f8d.bot.sendMessage(_0x272f8d.chat, {
@@ -1398,7 +1398,7 @@ smd(
  
        if (!url) {
          return await message.reply(
-           `*Uhh Please, Provide me tiktok Video Url*\n*_Ex ${prefix}tiktok https://www.tiktok.com/@dakwahmuezza/video/7150544062221749531_*`
+           `*Uhh Please, Provide me tiktok Video Url*\n*_Ex ${prefix}tiktok https://www.tiktok.com/@dao/7150544062221749531_*`
          );
        }
  
@@ -1441,7 +1441,7 @@ smd(
      try {
        if (!url) {
          return await message.reply(
-           `*Uhh Please, Provide me tiktok Video Url*\n*_Ex ${prefix}tiktok https://www.tiktok.com/@dakwahmuezza/video/7150544062221749531_*`
+           `*Uhh Please, Provide me tiktok Video Url*\n*_Ex ${prefix}tiktok https://www.tiktok.com/@ddeo/7150544062221749531_*`
          );
        }
  
@@ -1781,7 +1781,7 @@ smd({
        return await _0x1c8285.reply("*_Give Me Search Query!_*");
      }
      let _0x2878ec = await yts(_0xca939c);
-     let _0x4186e4 = "*SAVAGE || ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ* \nCopy any URL of the video you want to download the, then use .ytdl or .ytmp4 or.ytmp3 to download video send 1 or audio 2 from URL \n\n_Results For : " + _0xca939c + "_ \n\n";
+     let _0x4186e4 = "*SAVAGE || ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ* \nCopy any URL of the video you want to download then use .ytdl url to download video and audio \n\n_Results For : " + _0xca939c + "_ \n\n";
      let _0x463366 = 1;
      for (let _0x308e22 of _0x2878ec.all) {
        _0x4186e4 += " \n*" + _0x463366++ + " : " + _0x308e22.title + (_0x308e22.timestamp ? "(" + _0x308e22.timestamp + ")" : "") + "*\n*Url : " + _0x308e22.url + "*";
